@@ -1,5 +1,7 @@
 """Fetches current astronaut data from the Open Notify ISS API."""
 
+from __future__ import annotations
+
 import logging
 import requests
 from datetime import datetime, timezone

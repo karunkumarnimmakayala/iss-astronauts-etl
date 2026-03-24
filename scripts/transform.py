@@ -1,5 +1,7 @@
 """Validates and transforms raw astronaut API payload into clean records."""
 
+from __future__ import annotations
+
 import logging
 from datetime import datetime, timezone
 from typing import Any
